@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+        <title>Splash Home Page</title>
+        
+        
+<!--This is the bootstrap CDN link-->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+ 
+<!--This is Font Awesome's CDN link --->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> 
+        
+<!--Link to my CSS file. **Must** come after bootstrap CDN CSS to override CDN CSS-->
+        <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+        
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+     <![endif]-->
+    </head>
+    <body class="body-splash">
+        
+        
+        
+     
+    
+    
+    <!--Nav bar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        
+     <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">Keep Fit</a>
+    </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-inverse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="stretching.html">Stretching</a></li>
+        <li><a href="cardio.html">Cardio</a></li> 
+        <li><a href="weighttraining.html">Weight Training</a></li>
+        <li> <a href="bodyweight.html">Body Weight Exercise</a></li>
+      </ul>
+      
+<!--Link for MODAL to work on "Contact Us"-->
+    <ul class="nav navbar-nav navbar-right">
+    <li data-toggle="modal" data-target="#myModal">
+    <a href="#"><span class="glyphicon glyphicon-envelope"></span> Write Me </a></li>
+    </ul>
+    
+</div><!--end of navbar collapse-->
+</div><!--end of navbar container-fluid-->
+</nav><!--end of navbar-->
+    
+
+    
+    
+    
+    
+<div class="container">
+        <div class="row1-splash">
+            <div class="col-xs-12">
+                <div class="splashbox">
+                <div class="sptext">
+            <h1 align="center">Exercise</h1>
+            <h3 align="center">Take time for yourself</h3>
+          <br>
+            <h4 align="center"><p>Your body knows it can do it, but sometimes it takes your brain a little longer to process the information. Don't let anything or anyone—even yourself—stand between you and your goals.</p></h4>
+                 </div>         
+                            
+            <br>
+            
+            
+            
+     </div><!--End splashbox-->
+     <div class="center-text">
+      <a class="semi-transparent-button with-border" href="home.html">Get Started</a>
+     </div>
+     
+    </div> <!--Column end -->
+
+  </div> <!--End inner quote text Row1-spalsh-->
+  </div> <!--End Container-->
+
+
+
+
+
+
+
+<!-- Modal START-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    
+<!-- Modal Header -->
+    <div class="modal-header-fluid">
+    <button type="button" class="close" data-dismiss="modal">
+     <span aria-hidden="true">&times;</span>
+     <span class="sr-only">Close</span>
+     </button>
+     
+     <!--Create unique myTitle class to center text and change Font -->
+   <h4 class="modal-title modal-myTitle" id="myModalLabel">Write to Me</h4>
+    </div> <!--Modal Header End -->
+            
+<!-- Modal Body -->
+    <!--Create unique myBody class to add background image to modal-->
+    <div class="modal-body modal-myBody">
+    <form class="form-horizontal" role="form">
+        
+    <div class="form-group">
+    <label class="col-sm-3 control-label control-myLabel" for="inputName">
+        <span class="glyphicon glyphicon-user"></span> Name</label>
+    <div class="col-sm-9">
+    <input type="text" class="form-control"  id="inputName" placeholder="Name"/>
+    </div><!--Column Name END -->
+    </div><!--Form group END -->
+           
+    <div class="form-group">
+    <label class="col-sm-3 control-label control-myLabel" for="inputEmail">
+        <span class="glyphicon glyphicon-envelope"></span> Email</label>
+    <div class="col-sm-9">
+    <input type="email" class="form-control" id="inputEmail" placeholder="Email"/>
+    </div><!--Column Email END-->
+    </div><!--Form group END -->         
+                  
+    <div class="form-group">
+    <label  class="col-sm-3 control-label control-myLabel" for="inputMessage">
+        <span class="glyphicon glyphicon-pencil"></span> Message </label>
+    <div class="col-sm-9">
+    <input type="text" name="InputMessage" class="form-control input-lg" id="text" placeholder="Message Me"/>
+    </div><!--Column Message END -->
+    </div><!--Form group END -->
+
+
+<!--Move Submit Button to Right align with Offset -->
+    <div class="form-group">
+    <div class="col-sm-offset-8 col-sm-4">
+    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+    
+    </div><!--Submit Button Column END -->
+    </div> <!--Submit Button END-->
+  
+    </form>
+             
+</div><!--Modal body END-->
+</div><!--Modal content END -->
+</div><!--md dialog END -->
+</div><!--Modal END --->
+
+
+<!--jquery.js CDN. **Must** come before the bootstrap.js. Bootstrap.js relies on jQuery to work-->
+
+<script   src="https://code.jquery.com/jquery-2.2.2.js" integrity="sha256-4/zUCqiq0kqxhZIyp4G0Gk+AOtCJsY1TA00k5ClsZYE="   crossorigin="anonymous"></script>
+
+<!--bootstrap.js CDN scrip link. **MUST come at end just before body closing tag-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    </body>
+</html>

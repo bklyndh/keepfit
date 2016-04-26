@@ -1,0 +1,307 @@
+
+
+
+
+.social-media-links {
+    display: inline-block;
+}
+/* ---------START Navbar CSS -------- */
+
+.navbar-inner {
+    background:transparent;
+    font: #FFF;
+}
+
+/*--This CENTERS the Navbar --*/
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}/*Ends Navbar Centering CSS --*/
+
+
+.navbar-loc {
+  display: inline-block;
+} /* -----------END Navbar CSS --------*/
+
+
+
+
+/*------- Home Page CSS ------*/
+/*--Jumbotron for Home page starts --*/
+
+.jmbhome {
+    background: transparent;
+    margin: auto 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100px;
+    max-height: 250px;
+    /*background-color:#CEDADA;*/
+}
+.jmbtext-hp {
+    color: #000;
+    text-align: left;
+    padding-left:10px;
+}
+
+.jmb-item-hp {
+    min-height: 150px;
+    
+} 
+    
+.jumbotron > .boxhome {
+    min-width: 200px;
+    margin: 0 auto;
+    
+} /*--Jumbotron for Home ends --*/
+
+
+/*-- Home page background image to be centered and not repeat --*/
+.body-home {
+    /*background-color:#224B81;*/
+    background-image: url("../images/crossfitsepia.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+/* Home page carousel's inner text items --*/
+.carousel-inner > .item {
+    height: 50px;
+    color: black;
+    font-family: "Arial Black";
+    font-weight: 900;
+    text-align:right;
+    background-color: #F7F7F7;
+    background-color: transparent;
+}
+
+/* Home.html Image Grid Page CSS start */
+
+/*
+.row {
+    padding: 10px;
+    margin-top: 25px;
+}*/
+
+.h3-hptitle {
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    
+} 
+
+/* Start Unique Button for Home Page */
+.btn-blk {
+    background-color:black;
+    color: #678CBA;
+    font-size: 20px;
+}
+
+/* ---Home Page Unique Hover, focus and active for unique bottons ---*/
+
+.btn-blk:hover,
+.btn-blk:focus,
+.btn-blk:active {
+        color: #000;
+        background-color: #678CBA;
+        border-color: #000;
+        font-size: 20px;
+        
+} /*End Unigue Home page buttons */
+
+.row2-home {
+    padding: 30px;
+    margin-top: 50px;
+}/* ---- Home.html page CSS end ------ */
+
+
+.splashbox {
+    background-color: transparent;
+    padding-top: 25px;
+}
+
+
+.sptext {
+    color: #000;
+    text-align: left;
+    padding-left:10px;
+}
+
+
+
+.transbox >p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000;
+}
+
+.transbox >h2 {
+    color:#000;
+    text-align: center;
+}
+
+
+
+/* Index.html Splash Page CSS start*/
+.row1-splash {
+    padding: 50px;
+    margin-top: 100px;
+    
+}
+
+.row1-splash >col-xs-12 {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.row1-splash > h4 {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+#imground {
+    border-radius: 10px;
+    /*border: 2px solid #000;*/
+
+}
+
+/* -- Index.html/Splash page CSS */
+/* -- Splash page Background image take full screen. */
+.body-splash {
+    background-image: url("../images/Blue_sky_and_green_grass-wide.jpg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #000;
+}
+   
+/* Code for semi-transparent transition button on Index.html Splash page */
+.semi-transparent-button {
+    display: block;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 8px;
+    width: 80%;
+    max-width: 200px;
+    background: #eee; /* fallback color for old browsers */
+    background: black;
+    border-radius: 8px;
+    color: #008000;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+    
+}
+
+.semi-transparent-button:hover,
+.semi-transparent-button:focus,
+.semi-transparent-button:active {
+  background: #fff;
+  color: #000;
+  transition: all 0.5s ease-in;
+  text-decoration: none;
+}
+.semi-transparent:focus {
+  outline: none;
+}
+
+.is-grey {
+  background: #1e348e; /* fallback color for old browsers */
+  background: rgba(30, 52, 142, 0.5);
+}
+.is-grey:hover,
+.is-grey:focus,
+.is-grey:active {
+  background: #a9a9a9; /* fallback color for old browsers */
+  background: rgb(169, 169, 169);
+  color: #fff;
+}
+
+.with-border {
+  border: 1px solid #EEE;
+}
+
+
+
+/* ---- Stretching Page CSS --- */
+
+.body-stretch {
+    /*background-color:#224B81;*/
+    background-image: url("../images/blue.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.body-stretch >.container {
+    background-color: #FFF;
+}
+
+.jmb-stretch {
+    text-align: center;
+}
+
+/* --- Body Weight Page --*/
+
+.body-bodyweight {
+    background-color: #b1cad6;
+}
+
+.jmb-bw {
+    text-align: center;
+}
+
+.page-header-bw {
+    padding-top: 40px;
+    color: #000;
+
+}
+
+small{
+    color: #FFF;
+
+}
+/*--Cardio Page Start --*/
+.jmb-cardio {
+    text-align: center;
+}
+
+
+
+/*---MODAL code for ALL Pages--*/
+
+.modal-myTitle {
+    text-align: center;
+    color: #000;
+    font-family: times;
+    font-size: 35px;
+    background-color: #815B74;
+}
+
+.control-myLabel {
+    color: #000;
+    font-size: 20px;
+}
+    
+.modal-myBody {
+   background-image: url("../images/manydumbbells.jpg");
+}
