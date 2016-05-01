@@ -4,11 +4,13 @@
 
 .social-media-links {
     display: inline-block;
+    margin: 0 auto;
+
 }
 /* ---------START Navbar CSS -------- */
 
 .navbar-inner {
-    background:transparent;
+
     font: #FFF;
 }
 
